@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "cover": "https://i.ibb.co.com/Pkr36FG/google-deepmind-Q86ppa-C72-Hw-unsplash.jpg",
+    "title": "How to Master React in 30 Days",
+    "author": "Sarah Jenkins",
+    "author_img": "https://i.ibb.co.com/844YSNWS/christopher-campbell-r-DEOVt-E7v-Os-unsplash-1.jpg",
+    "posted_date": "Mar 14, 2026",
+    "reading_time": 5,
+    "hashtags": ["#react", "#javascript", "#frontend"]
+  },
+  {
+    "id": 2,
+    "cover": "https://i.ibb.co.com/d0SsJCq0/thisisengineering-8y-S04veb1-TQ-unsplash.jpg",
+    "title": "Understanding Modern CSS with Tailwind v4",
+    "author": "Alex Rivera",
+    "author_img": "https://i.ibb.co.com/bRGBR7Cs/christian-buehner-DIt-Ylc26z-VI-unsplash.jpg",
+    "posted_date": "Mar 10, 2026",
+    "reading_time": 8,
+    "hashtags": ["#tailwindcss", "#webdev", "#css"]
+  },
+  {
+    "id": 3,
+    "cover": "https://i.ibb.co.com/j9KVtvCM/retrosupply-j-Lw-VAUt-LOAQ-unsplash.jpg",
+    "title": "Top 10 JavaScript Best Practices for Clean Code",
+    "author": "Emily Zhang",
+    "author_img": "https://i.ibb.co.com/prLFbpmy/hale-tat-5b-RXCDykto-unsplash.jpg",
+    "posted_date": "Feb 28, 2026",
+    "reading_time": 10,
+    "hashtags": ["#javascript", "#coding", "#cleancode"]
+  },
+  {
+    "id": 4,
+    "cover": "https://i.ibb.co.com/XhmNSMG/marketing-online-Ja-YUpr-QWxvc-unsplash-1.jpg",
+    "title": "Why You Should Switch to Vite in 2026",
+    "author": "Michael Scott",
+    "author_img": "https://i.ibb.co.com/L4zS5xy/freestocks-9-UVml-Ib0w-JU-unsplash.jpg",
+    "posted_date": "Feb 18, 2026",
+    "reading_time": 4,
+    "hashtags": ["#vite", "#webdevelopment", "#tooling"]
+  },
+  {
+    "id": 5,
+    "cover": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80",
+    "title": "Building Accessible Web Apps for Everyone",
+    "author": "Sophia Martinez",
+    "author_img": "https://i.ibb.co.com/4Z1Wk1Qm/averie-woodard-4nulm-JUYFo-unsplash.jpg",
+    "posted_date": "Jan 25, 2026",
+    "reading_time": 7,
+    "hashtags": ["#a11y", "#accessibility", "#design"]
+  }
+]
