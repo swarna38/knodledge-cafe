@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-
+import { MdBookmarks } from "react-icons/md";
 
 const Blog = ({ blog }) => {
     const {title, cover, author, author_img, posted_date, reading_time, hashtags} = blog
@@ -15,8 +15,9 @@ const Blog = ({ blog }) => {
                         <p>{posted_date}</p>
                     </div>
                 </div>
-                <div>
+                <div className="items-center">
                     <span>{reading_time} min read</span>
+                    <button className="text-red-800 ml-3"><MdBookmarks /></button>
                 </div>
             </div>
             <h2 className="text-4xl mb-4 font-bold">{title}</h2>
