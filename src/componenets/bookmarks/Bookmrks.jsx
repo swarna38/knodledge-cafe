@@ -1,9 +1,9 @@
 
 
-const Bookmrks = () => {
+const Bookmrks = ({bookmarks}) => {
     return (
         <div className="md:w-1/3">
-            <h2>bookmarks</h2>
+            <h2>bookmarks : {bookmarks.length}</h2>
         </div>
     );
 };
