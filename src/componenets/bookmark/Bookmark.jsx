@@ -10,6 +10,7 @@ const Bookmark = ({bookmark}) => {
 };
 
 Bookmark.propTypes = {
-    bookmark : PropTypes.object
+    bookmark : PropTypes.object,
+    readingTime : PropTypes.number,
 }
 export default Bookmark;

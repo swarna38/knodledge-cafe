@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import { MdBookmarks } from "react-icons/md";
 
-const Blog = ({ blog, handelAddToBookMark }) => {
+const Blog = ({ blog, handelAddToBookMark, handelMarkAsRead }) => {
     const {title, cover, author, author_img, posted_date, reading_time, hashtags} = blog
     console.log(blog)
     return (
@@ -34,6 +34,12 @@ const Blog = ({ blog, handelAddToBookMark }) => {
                     hashtags.map((hash, index) => <span key={index}><a href="">{hash}</a></span>)
                 }
             </p>
+
+            <button 
+                 onClick={() => handelMarkAsRead(reading_time)}
+                 className="text-blue-700 font-bold underline">
+                 Mark As Read
+            </button>
         </div>
     );
 };
@@ -41,5 +47,6 @@ const Blog = ({ blog, handelAddToBookMark }) => {
 Blog.propTypes = {
     blog : PropTypes.object.isRequired,
     handelAddToBookMark: PropTypes.func,
+    handelMarkAsRead: PropTypes.func,
 }
 export default Blog;
