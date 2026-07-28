@@ -8,14 +8,14 @@ function App() {
   
 
   return (
-    <>
+    <div className='max-w-6xl mx-auto'>
        <Header></Header>
-       <div className='md:flex'>
+       <div className='md:flex gap-9'>
           <Blogs></Blogs>
           <Bookmrks></Bookmrks>
 
        </div>
-    </>
+    </div>
   )
 }
 
