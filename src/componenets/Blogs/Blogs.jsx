@@ -12,7 +12,7 @@ const Blogs = ({ handelAddToBookMark }) => {
     },[])
     return (
         <div className="md:w-2/3">
-            <h1 className="text-4xl">blogs : {blogs.length}</h1>
+            <h1 className="text-2xl mb-3 font-bold">Blogs : {blogs.length}</h1>
 
             {
                 blogs.map(blog => <Blog
@@ -27,7 +27,7 @@ const Blogs = ({ handelAddToBookMark }) => {
 };
 
 Blogs.propTypes ={
-handelAddToBookMark : PropTypes.func,
+handelAddToBookMark : PropTypes.func
 
 }
 
