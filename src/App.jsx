@@ -15,10 +15,22 @@ function App() {
     setBookmarks(newBookMarks);
   }
   
-  const handelMarkAsRead = time => {
+  const handelMarkAsRead = (id, time) => {
   const newReadingTime = readingTime + time;
   setReadingTime(newReadingTime);
+
+  //remove the read bookmark
+  const remainingBookmark = bookmarks.filter(bookmark => bookmark.id !== id);
+  setBookmarks(remainingBookmark);
+
+  //  const indexRemove = bookmarks.findIndex(bookmark => bookmark.id === id);
+  // if(indexRemove !== -1){
+  //   const remainingBookmark = [...bookmarks];
+  //   remainingBookmark.splice(indexRemove, 1);
+  //   setBookmarks(remainingBookmark);
+  // }
   }
+
 
   return (
     <div className='max-w-6xl mx-auto'>
